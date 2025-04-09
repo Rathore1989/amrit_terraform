@@ -17,7 +17,23 @@ terraform {
   cloud { 
     organization = "amrit-terraform" 
     workspaces { 
-      name = "project2-ws1" 
+      name = "amritdev" 
+    } 
+  } 
+}
+terraform { 
+  cloud { 
+    organization = "amrit-terraform" 
+    workspaces { 
+      name = "amrituat" 
+    } 
+  } 
+}
+terraform { 
+  cloud { 
+    organization = "amrit-terraform" 
+    workspaces { 
+      name = "amritprod" 
     } 
   } 
 }
