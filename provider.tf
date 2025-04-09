@@ -17,7 +17,7 @@ terraform {
   cloud { 
     organization = "amrit-terraform" 
     workspaces { 
-      name = "project2-ws1" 
+      name = "amrituat" 
     } 
   } 
 }
