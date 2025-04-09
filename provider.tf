@@ -21,19 +21,3 @@ terraform {
     } 
   } 
 }
-#terraform { 
- # cloud { 
-  #  organization = "amrit-terraform" 
-   # workspaces { 
-    #  name = "amrituat" 
-    #} 
-  #} 
-#}
-#terraform { 
- # cloud { 
-  #  organization = "amrit-terraform" 
-   # workspaces { 
-    #  name = "amritprod" 
-    #} 
-  #} 
-#}
